@@ -1,3 +1,25 @@
+
+
+.container-fluid{
+    padding: 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: open sans;
+}
+
+a:hover{
+    background-image: linear-gradient( #ffccd4, #d9c4ec);
+    color: black;
+    text-decoration: none;
+    border-radius: 35%;
+    padding: 15px 15px 15px 15px;
+    
+}    
+
 .header{
     background-image: linear-gradient( #ffccd4, #d9c4ec);
     font-family: lobster;
@@ -7,7 +29,7 @@
     align-items: center;
     justify-content: center;
     font-size: 2em;
-   
+    
     
 }
 
@@ -17,5 +39,143 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
 }
 
+.jumbotron{
+    padding-top:20px;
+    background-image: url(../img/environmental-friendly-sustainable-eco-friendly.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vw;
+    background-color: #b0dede;
+    font-family: lobster;
+    opacity:100%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    margin-top: 0px;
+}
+
+.jumbo-text{
+    font-family: open sans;
+    font-weight: bold;
+    background-color:white;
+    padding-right:250px;
+    padding-left: 250px; 
+    opacity:80%;
+    padding-top:15px;
+    padding-bottom:15px;
+    
+}
+
+.jumbo2{
+    background-image: url(https://images.pexels.com/photos/318236/pexels-photo-318236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=940);
+    height: 35vw;
+}
+
+.footer{
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: tan;
+    font-family: open sans;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.item-name{
+    font-weight: bold;
+    padding-left:160px;
+    padding-right: 50px;
+    padding-top:20px;
+    font-size: 20px;
+   
+    
+}
+
+.footer-page{
+
+    background-color:#ffccd4;
+}
+
+.footer-text-page{
+
+    background-color:#ffccd4;
+}
+
+.footer-page{
+    background-color:#ffccd4;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: lobster;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+@media screen and (max-width: 480px) {
+    .jumbo-text {
+     font-size: 20px;
+     padding-left: 15px;
+     padding-right: 15px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .jumbo2 {
+     height: auto;
+     Width: 100%;
+     font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .jumbotron {
+     height: auto;
+     Width: 100%;
+     font-size: 16px;
+    }
+  } 
+
+  @media screen and (max-width: 480px) {
+    .header {
+    text-align: center;
+    }
+  } 
+
+  @media screen and (max-width:480px){
+      .footer-text{
+          font-size: 16px;
+      }
+  }
+  
+  .item-description{
+      padding-left:150px;
+      font-weight: bold;
+      font-size: 18px;
+      
+  }
+
+  .item-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left:150px;
+      background-color: #ffccd4;
+      opacity: 80%;
+      padding-bottom: 20px;
+      height: 35vw;
+  }
+
+ 
