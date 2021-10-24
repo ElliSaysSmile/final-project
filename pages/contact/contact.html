@@ -16,7 +16,7 @@
   />
 
     <!-- import css -->
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
 
     <!-- import google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,12 +34,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
-    <div class= "row header">
-        <h1>contact</h1>
-    </div>
+
     
   </head>
   <body>
+    
+    <form id='contactForm' action="javascript:void(0);" onsubmit="handleSubmit('contactForm')">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" placeholder="John Doe">
+      
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" placeholder="john@example.com">
+
+      <label for="cell">Cell</label>
+      <input id="cell" type="tel" name="cell" placeholder="1 555 555 5555">
+
+      <label for="reason">Reason for Contacting</label>
+      <textarea id="reason" name="reason" placeholder="Write your questions here and we will get back to you as soon as possible."></textarea>
+      
+      <input type="submit" value="Submit">
+  </form>
+
     
 
    
