@@ -11,10 +11,10 @@ h2{
 
 }
 
-body{
+ body{
     margin-right:15px;
     
-}
+} 
 
 .col{
     padding: 0px;
@@ -32,7 +32,7 @@ a:hover{
     background-image: linear-gradient( #ffccd4, #d9c4ec);
     color: black;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 15px;
     padding: 15px 15px 15px 15px;
     
     
@@ -72,10 +72,13 @@ a:hover{
     margin:0px;
     padding-bottom:50px; 
     padding-top:50px; 
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 90px;
+    padding-left: 90px;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
     
     
 }
@@ -84,11 +87,14 @@ a:hover{
     background-color: #b0dede;
     margin:0px;
     padding-bottom:50px; 
-    padding-top:50px; 
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-top:90px; 
+    padding-right:90px;
+    padding-left: 90px;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 .navbar-1{
@@ -173,7 +179,6 @@ a:hover{
     margin-left:5px;
     margin-right:5px;
     padding-top:15px;
-    border: 2px solid black;
 }
 
 .apparel{
@@ -184,7 +189,7 @@ a:hover{
     margin-left:5px;
     margin-right:5px;
     padding-top:15px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .footer-page{
@@ -224,7 +229,53 @@ a:hover{
 
 }
 
+.about{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px; 
+    height: 400px;
+    width: 1024px;
+    background-color:#d9c4ec;
+    display: flex;
+    Justify-content: start;
+    border-radius: 15px;
+    
+}
 
+.about-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: open sans;
+    font-size: 20px;
+    margin-right:70px;
+    margin-left: 70px;
+    font-weight: bold;
+
+}
+
+.footer-about{
+    background-color: #d9c4ec;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: lobster;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0px; 
+}
+/* Media calls */
 @media screen and (max-width: 480px) {
     .jumbo-text {
      font-size: 20px;
@@ -276,10 +327,103 @@ a:hover{
 
   @media screen and (max-width:480px){
       .footer-text{
-          font-size: 16px;
+          font-size: 8px;
       }
   }
-  
-  
 
- 
+  @media screen and (max-width:480px){
+    .apparel{
+    width: 500px;
+    padding-left: 95px;
+    padding-top:15px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .apparel-container{
+        
+            background-color: #b0dede;
+            /* margin:0px; */
+            padding-bottom:50px; 
+            padding-top:50px; 
+            padding-right: 15px;
+            padding-left: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .item-container{
+            
+                background-color: #ffccd4;
+                /* margin:0px; */
+                padding-bottom:50px; 
+                padding-top:50px; 
+                padding-right: 15px;
+                padding-left: 10px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    
+        @media screen and (max-width:480px){
+            .item{
+            width: 500px;
+            padding-left: 70px;
+            padding-top:15px;
+            display: flex;
+            flex-wrap: wrap;
+            }
+        }
+        @media screen and (max-width:800px){
+            .item{
+            width: 530px;
+            padding-left: 97px;
+            padding-top:15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            }
+        }
+
+        @media screen and (max-width:800px){
+            .apparel{
+            width: 530px;
+            padding-left: 90px;
+             
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .footer{
+                height: 10vh;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .footer-page{
+                height: 10vh;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .footer-apparel{
+                height: 10vh;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .footer-about{
+                height: 10vh;
+            }
+        }
+
+       
+      
