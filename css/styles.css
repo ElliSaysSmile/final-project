@@ -1,0 +1,429 @@
+
+h2{
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.container-fluid{
+    padding: 0px;
+    margin: 0px; 
+
+}
+
+ body{
+    margin-right:15px;
+    
+} 
+
+.col{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: open sans;
+}
+
+a:hover{
+    background-image: linear-gradient( #ffccd4, #d9c4ec);
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 15px 15px 15px 15px;
+    
+    
+}    
+
+.header{
+    background-image: linear-gradient( #ffccd4, #d9c4ec);
+    font-family: lobster;
+    height: 30vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    margin: 0px;
+    
+    
+}
+
+.apparel-header{
+    background-image: linear-gradient(#b0dede , #92dff3);
+    font-family: lobster;
+    height: 30vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.item-container{
+    background-color: #f4c2c2;
+    margin:0px;
+    padding-bottom:50px; 
+    padding-top:50px; 
+    padding-right: 90px;
+    padding-left: 90px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    
+    
+}
+
+.apparel-container{
+    background-color: #b0dede;
+    margin:0px;
+    padding-bottom:50px; 
+    padding-top:90px; 
+    padding-right:90px;
+    padding-left: 90px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.navbar-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.navrow{
+    min-height: 120px;
+    margin: 0px;
+}
+
+.jumbotron{
+    padding-top:20px;
+    background-image: url(../img/environmental-friendly-sustainable-eco-friendly.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vw;
+    background-color: #b0dede;
+    font-family: lobster;
+    opacity:100%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    margin: 0px;
+    width: 100%;
+}
+
+.jumbo-text{
+    font-family: open sans;
+    font-weight: bold;
+    background-color:white;
+    padding-right:250px;
+    padding-left: 250px; 
+    opacity:80%;
+    padding-top:15px;
+    padding-bottom:15px;
+    
+}
+
+.jumbo2{
+    background-image: url(https://images.pexels.com/photos/318236/pexels-photo-318236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=940);
+    height: 35vw;
+    margin: 0px;
+    width: 100%;
+}
+
+.footer{
+    background-color: tan;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: lobster;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+
+.item{
+    background-color: rgba(255,255,255, 0.5);
+    font-size: 16px;
+    text-align: center;
+    width: 10vw;
+    margin-left:5px;
+    margin-right:5px;
+    padding-top:15px;
+}
+
+.apparel{
+    background-color: rgba(255,255,255, 0.5);
+    font-size: 16px;
+    text-align: center;
+    width: 10vw;
+    margin-left:5px;
+    margin-right:5px;
+    padding-top:15px;
+    /* border: 2px solid black; */
+}
+
+.footer-page{
+    background-color: #f4c2c2;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: lobster;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.footer-apparel{
+    background-color: #b0dede;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: lobster;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0px; 
+
+}
+
+.footer-text-apparel{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    background-color: #b0dede;
+
+}
+
+.about{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px; 
+    height: 400px;
+    width: 1024px;
+    background-color:#d9c4ec;
+    display: flex;
+    Justify-content: start;
+    border-radius: 15px;
+    
+}
+
+.about-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: open sans;
+    font-size: 20px;
+    margin-right:70px;
+    margin-left: 70px;
+    font-weight: bold;
+
+}
+
+.footer-about{
+    background-color: #d9c4ec;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: lobster;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0px; 
+}
+/* Media calls */
+@media screen and (max-width: 480px) {
+    .jumbo-text {
+     font-size: 20px;
+     padding-left: 15px;
+     padding-right: 15px;
+    }
+  }
+
+  
+  .item-description{
+      padding-left:150px;
+      font-weight: bold;
+      font-size: 18px;
+      
+  }
+
+  .item-image{
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      padding-left:150px;
+      background-color: #ffccd4;
+      opacity: 80%;
+      padding-bottom: 20px;
+      height: 35vw;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jumbo2 {
+     height: auto;
+     Width: 100%;
+     font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .jumbotron {
+     height: auto;
+     Width: 100%;
+     font-size: 16px;
+    }
+  } 
+
+  @media screen and (max-width: 480px) {
+    .header {
+    text-align: center;
+    }
+  } 
+
+  @media screen and (max-width:480px){
+      .footer-text{
+          font-size: 8px;
+      }
+  }
+
+  @media screen and (max-width:480px){
+    .apparel{
+    width: 500px;
+    padding-left: 95px;
+    padding-top:15px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .apparel-container{
+        
+            background-color: #b0dede;
+            /* margin:0px; */
+            padding-bottom:50px; 
+            padding-top:50px; 
+            padding-right: 15px;
+            padding-left: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .item-container{
+            
+                background-color: #ffccd4;
+                /* margin:0px; */
+                padding-bottom:50px; 
+                padding-top:50px; 
+                padding-right: 15px;
+                padding-left: 10px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    
+        @media screen and (max-width:480px){
+            .item{
+            width: 500px;
+            padding-left: 70px;
+            padding-top:15px;
+            display: flex;
+            flex-wrap: wrap;
+            }
+        }
+        @media screen and (max-width:800px){
+            .item{
+            width: 530px;
+            padding-left: 97px;
+            padding-top:15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            }
+        }
+
+        @media screen and (max-width:800px){
+            .apparel{
+            width: 530px;
+            padding-left: 90px;
+             
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .footer{
+                height: 10vh;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .footer-page{
+                height: 10vh;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .footer-apparel{
+                height: 10vh;
+            }
+        }
+
+        @media screen and (max-width: 480px){
+
+            .footer-about{
+                height: 10vh;
+            }
+        }
+
+       
+      
