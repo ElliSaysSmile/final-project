@@ -234,8 +234,8 @@ a:hover{
     margin-right: 200px;
     margin-top: 50px;
     margin-bottom: 100px; 
-    height: 400px;
-    width: 1024px;
+    height: 60vh;
+    width: 80vw;
     background-color:#d9c4ec;
     display: flex;
     Justify-content: start;
@@ -421,9 +421,42 @@ a:hover{
         @media screen and (max-width: 480px){
 
             .footer-about{
-                height: 10vh;
+                width: 70vh;
             }
         }
+
+        @media screen and (max-width: 480px){
+         .about   {
+            margin: 0px;            
+            height: 568px;
+            width: 400px;
+            background-color:#d9c4ec;
+            display: flex;
+            Justify-content: start;
+            border-radius: 15px;
+            font-size: 12px;
+            padding: 100px, 100px, 100px, 100px;
+         }
+        }
+
+        @media screen and (max-width: 480px){
+            .about-text{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: open sans;
+                    font-size: 16px;
+                    margin-right:10px;
+                    margin-left: 10px;
+                    font-weight: bold;
+                    padding: 100px, 100px, 100px, 100px;
+                
+                }
+            
+        }
+   
+        
+        
 
        
       
